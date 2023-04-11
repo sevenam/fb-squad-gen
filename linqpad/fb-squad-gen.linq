@@ -19,8 +19,8 @@ public static List<string> positions = new List<string> {"Keeper", "Back", "CB",
 public static List<Player> players = new List<Player>
 	{
 		new Player("BRR", new() {"Keeper"}),
-		new Player("HJA",  new() {"Keeper"}),
-		new Player("AM",  new() {"Back", "Winger", "Substitute"}),
+		new Player("HJA", new() {"Keeper"}),
+		new Player("AM", new() {"Back", "Winger", "Substitute"}),
 		new Player("ÅF", new() {"Back", "CB", "CM", "Substitute"}),
 		new Player("AHT", new() {"Winger", "Back", "CM", "Substitute"}),
 		new Player("CHT", new() {"Winger", "CM", "Forward", "Substitute"}),
