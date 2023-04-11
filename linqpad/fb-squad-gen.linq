@@ -3,7 +3,7 @@
 void Main()
 {
 	
-	var numMatches = 5;
+	var numMatches = 15;
 	
 	for(var i = 0; i < numMatches; i++) {
 		GenerateSquad();
@@ -37,7 +37,8 @@ public static List<Player> players = new List<Player>
 		new Player("SEMB", new() {"Back", "Winger", "Forward", "Substitute"}),
 		new Player("SØ", new() {"CB", "Back", "CM", "Winger", "Substitute"}),
 		new Player("TKPS", new() { "Forward", "Winger", "Substitute"}),
-		new Player("WBG", new() { "CM", "Winger", "Back", "Substitute"})
+		new Player("WBG", new() { "CM", "Winger", "Back", "Substitute"}),
+		new Player("MN", new() { "Back", "Winger", "Forward", "Substitute"})
 	}.OrderBy(a => Guid.NewGuid()).ToList();
 
 public static List<SquadPosition> GenerateSquad() 
