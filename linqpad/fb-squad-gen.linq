@@ -14,7 +14,7 @@ void Main()
 
 // You can define other methods, fields, classes and namespaces here
 
-public static List<string> positions = new List<string> {"Keeper", "Back", "CB", "Back", "Winger", "CM", "CM", "Winger", "Forward", "Substitute", "Substitute", "Substitute" };
+public static List<string> positions = new List<string> {"Keeper", "Back", "CB", "Back", "Winger", "CM", "CM", "Winger", "Forward", "Substitute", "Substitute" };
 
 public static List<Player> players = new List<Player>
 	{
